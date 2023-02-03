@@ -1,0 +1,849 @@
+/* Home */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+
+  background-color: #FFFFFF;
+  height: 15vh;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #6caeeb
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+}
+
+
+#navegacao {
+  display: flex;
+  gap: 20px;
+  margin-right: 70px;
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.link {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#botao {
+  border: 1px solid #000;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6px 10px;
+  text-decoration: none;
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+#linkbotao {
+  color: #FFFFFF;
+}
+
+#logowhatsindex{
+
+  position: fixed;
+  left: 90.5%;
+  top: 87%;
+  float: right;
+  width: 3.2rem;
+
+  
+}
+
+.fundopreto {
+  background-color: #000;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#sobrenos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.alinhar {
+  margin-top: 70px;
+
+}
+
+#textosobrenos {
+  text-align: center;
+  margin: 1vw 20vw;
+}
+
+#alinhamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+
+}
+
+.depoimentosalterar {
+  background-color: #FFFFFF;
+  color: #000;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+}
+
+.pessoas {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+
+}
+
+
+
+a:hover {
+  color: #0000FF;
+}
+
+
+#parte {
+  background-image: url(./imagem/background-hero.png);
+  background-repeat: no-repeat; 
+  height: 500px;
+  text-align: center;
+}
+
+
+#parte p {
+  font-size: 25px;
+  margin: 10px 0;
+
+}
+
+#parte h3 {
+  font-size: 40px;
+  font-family: 'Poppins';
+}
+
+#alinhartexto article {
+  margin-top: 200px;
+
+}
+
+.alinhar {
+  margin: 100px 0;
+}
+
+#escola {
+  padding: 10px 150px;
+  height: 75;
+  width: 349;
+}
+
+
+#home {
+  text-decoration: underline;
+}
+
+#cursos {
+  text-decoration: underline;
+}
+
+#contato {
+  text-decoration: underline;
+}
+
+#areadm {
+  text-decoration: underline;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.endereco {
+  padding: 25px;
+}
+
+
+.linksfooter {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#navfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.linkfooteralterar {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+.redesociais {
+  padding: 20px;
+
+}
+
+.imagens {
+  margin: 20px 0;
+}
+
+.arearestrita {
+  padding: 20px;
+  margin: 5px 0;
+}
+
+.linksarea {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+/* identical to box height */
+
+/* text-decoration-line: underline;
+
+color: #0E0E0E;  */
+
+
+/* AREA CURSOS */
+
+#alinharcursos{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr) ;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 150px;
+  justify-content: space-around;
+
+  }
+
+  #alinharhtml{
+    background-color: #FFFFFF;
+    color: #000;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: 'Open Sans';
+    
+  }
+
+  #alinharjs{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+  #alinharapis{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+
+#botaofazerparte{
+  display: grid;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family:'Open Sans' ;
+  grid-column: 2/2;
+  padding: 10px;
+  
+  
+}
+
+#botaofazerparte2{
+   color: white;
+}
+
+#botaofazerparte:hover{
+  cursor:pointer;
+}
+
+.alinharhtmlcss{
+display: flex;
+background-color: #FFFFFF;
+height: 150px;
+width: 70%;
+margin-top: 30px;
+gap: 100px;
+padding: 20px; 
+border-radius: 25px;
+}
+
+
+#idmodulos{
+  display: flex;
+  flex-direction: column;
+  background-color: #000; 
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+ padding: 5em;
+}
+
+.alinhartitulo{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+}
+
+
+
+
+
+/* CODIGO PARTE DE CONTATO */
+
+
+#menucontato{
+  background-color: #000;
+  display: flex; /* define o container pai como flex */
+  align-items: center; /* centraliza os itens na vertical */
+  justify-content: center; /* centraliza os itens na horizontal */
+  height: 80vh; /* define a altura da página como 100% da tela */
+  padding:100px;
+  font-family: 'Open Sans';
+}
+
+#menu{
+  background-color: white;
+  color:black;
+  height: 30vh;
+  width: 30vw;
+  border-radius: 10px;
+  display: flex;
+  height: 500px;
+  flex-wrap: wrap; 
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+  
+
+  #fale{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    
+  }
+
+  .botaodecontato{
+    border-radius: 15px;
+    height: 30px;
+    width: 150px;
+    background-color: #000;
+    color: white;
+    
+  }
+
+  #botaopcurso{
+    border: 1px solid #000;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6px 10px;
+  text-decoration: none;
+  background-color: #000;
+  color: #FFFFFF;
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+  }
+
+   
+  .inputmsgcontato{
+    width: 300px;
+    height: 100px;
+  }
+
+
+
+
+
+
+  /* CODIGO ÁREA ADM */
+
+
+
+ .menulateral{
+  background-color: #000;
+  color: #FFFFFF;
+  
+  width: 30vw;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
+
+ }
+
+ #menudivareadm{
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  
+  
+  
+ }
+
+
+
+ #menuareadm{
+  border: 2px solid black;
+  height: 80vh;
+  }
+
+  .menucentral{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    padding: 80px;
+  }
+
+
+  #turmahipatia{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 180px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+
+  #turmasibyla{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 180px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+
+  #turmacurie{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 180px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+
+  #turmazhenyi{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 180px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+
+  #turmaclarke{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 180px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+
+  #turmablackwell{
+    background-color: #FFFFFF;
+    color: #000;
+    height: 180px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: 'Open Sans';
+  }
+
+
+  #turmaelion{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 180px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+
+  #turmaburnell{
+    background-color: #FFFFFF;
+  color: #000;
+  height: 180px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Open Sans';
+  }
+
+
+  #botao-turmas{
+    color: #FFFFFF;
+    font-size: 25px;
+  }
+  
+ #botao-matricula{
+  color: #FFFFFF;
+  font-size: 25px;
+ }
+
+ #botao-financeiro{
+  color: #FFFFFF;
+  font-size: 25px;
+ }
+
+ #btnSelecionarCursos{
+  font-size: 15px;
+ }
+
+
+
+  /* AREA BUSCAR TURMAS */
+
+
+  #menu-area-turmas{
+    display: flex;
+    border: 2px solid black;
+    gap:10px;
+    
+    
+  }
+
+
+
+  #buscarBotao{
+  background-color: black;
+  color: white;
+  font-size:20px;
+  width: 80px;
+
+  }
+
+
+  #buscarTurma{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: center;
+    width: 80vw;
+  }
+
+  #buscarInput{
+    font-size: 20px;
+  }
+
+  #resultado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    
+  }
+
+
+
+  /* AREA FINANCEIRO */
+
+
+  .maindasparada{
+      
+      display: flex;
+      border: 2px solid black;
+      gap: 10px;
+     
+  
+  }
+
+  #financeiro{
+    display: flex;
+    gap: 500px;
+    font-size: 25px;
+  }
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #verValor{
+    font-size: 15px;
+  }
+
+
+
+  /* AREA MATRICULAS */
+
+
+  #matricula{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+  
+  }
+
+  .sectionmatricula{
+    margin-top: 35px;
+    padding: 35px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+ 
+
+
+ #realizarMatricula{
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  font-size: 15px;
+  cursor: pointer;
+ }
+
+
+ .card{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 18.75em;
+  height: 5em;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  
+ }
+ 
+
+
+ .cardaluno{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 18.75em;
+  height: 10em;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  
+ }
+
+ #resultadocard{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+ }
